@@ -20,7 +20,6 @@ ZTEST(parser_suite, test_regex_external_fun) {
 	zassert_equal(0,0);
 }
 
-#define CRASH
 #ifdef CRASH
 void same_file_regex() {
 	int err;
